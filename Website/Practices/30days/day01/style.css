@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: yellow;
+}
+
+.card {
+  margin: 120px auto;
+  width: 320px;
+  height: 400px;
+  background: #272d40;
+  padding: 20px;
+  border-radius: 15px;
+  color: whitesmoke;
+  position: relative;
+}
+
+.card_heart,
+.card_cart {
+  font-size: 25px;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.card_cart {
+  left: unset;
+  right: 20px;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "realtime-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server-kafka.js",
+  "dependencies": {
+    "express": "^4.17.2",
+    "kafka-node": "^5.0.0",
+    "mongo-oplog-watch": "^1.0.3",
+    "nodemon": "^2.0.15",
+    "socker.io": "0.0.0-alpha-beta",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
